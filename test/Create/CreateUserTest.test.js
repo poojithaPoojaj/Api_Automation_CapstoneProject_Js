@@ -1,5 +1,5 @@
 
-const {createUser}= require('../../src/users/UsersService');
+const{createUser}= require('../../src/users/UsersClient')
 const {createUserRequestBody}=require('../../src/users/create/CreateRequestBody')
 
 test("Should able to Create User", async () => {

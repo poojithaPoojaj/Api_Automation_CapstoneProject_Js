@@ -1,5 +1,5 @@
 
-const {getAllUsers,getUsersWithLimit,getAllUsersInOurAccount}= require('../../src/users/UsersService');
+const{getAllUsers,getUsersWithLimit,getAllUsersInOurAccount}= require('../../src/users/UsersClient')
 
 test("Should able to Get All Users", async () => {
   const allUsers = await getAllUsers();

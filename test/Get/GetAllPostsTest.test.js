@@ -1,4 +1,4 @@
-const {getAllUsers,getAllPosts}= require('../../src/users/UsersService');
+const{getAllUsers}= require('../../src/users/UsersClient')
 
 test("Should able to Get All Post", async () => {
   const allUsers = await getAllUsers();

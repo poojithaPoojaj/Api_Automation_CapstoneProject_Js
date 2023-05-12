@@ -1,4 +1,4 @@
-const {getPostById}= require('../../src/users/UsersService');
+const{getPostById}= require('../../src/users/UsersClient')
 
 test("Should able to Get Post by Id", async () => {
     const id='60d21bd767d0d8992e610e31';

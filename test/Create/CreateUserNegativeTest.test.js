@@ -1,5 +1,5 @@
 
-const { createUser } = require('../../src/users/UsersService');
+const{createUser}= require('../../src/users/UsersClient')
 
 test("Should Not Allow to Create User With InValid email", async () => {
   const body = {

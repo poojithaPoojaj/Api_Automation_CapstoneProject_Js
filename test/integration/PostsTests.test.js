@@ -1,5 +1,5 @@
 
-const {createPost,deletePostById}= require('../../src/users/UsersService');
+const{createPost,deletePostById}= require('../../src/users/UsersClient')
 const {createPostRequestBody}=require('../../src/users/create/CreateRequestBody')
 
 test("Should Able to Create Post and delete it", async () => {

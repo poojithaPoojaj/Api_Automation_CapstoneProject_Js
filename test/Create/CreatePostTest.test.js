@@ -1,5 +1,4 @@
-
-const {createPost}= require('../../src/users/UsersService');
+const{createPost}= require('../../src/users/UsersClient')
 const {createPostRequestBody}=require('../../src/users/create/CreateRequestBody')
 
 
